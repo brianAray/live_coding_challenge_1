@@ -6,12 +6,12 @@ WeatherMachine will have a composite relationship with Thermometer and itself re
 You should also create a public method in WeatherMachine called getWeatherReport that prints the list of 24 temperatures in the following format:
 Your Last 24 Hours:
 
-0:00 - 50 degrees
-1:00 - 52 degrees
-2:00 - 54 degrees
-…
-22:00 - 66 degrees
-23:00 - 67 degrees.
+- 0:00 - 50 degrees
+- 1:00 - 52 degrees
+- 2:00 - 54 degrees
+- …
+- 22:00 - 66 degrees
+- 23:00 - 67 degrees.
 
 The Simulation class should only declare a main method. Inside of main you should create an instance of WeatherMachine and call the getWeatherReport() method from it. 
 
